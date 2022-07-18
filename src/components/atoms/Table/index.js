@@ -1,4 +1,4 @@
-import { IconButton, MenuItem, Select } from "@material-ui/core";
+import { IconButton, MenuItem, Select, Typography } from "@material-ui/core";
 import React, { useMemo } from "react";
 import {
   useTable,
@@ -49,6 +49,10 @@ export const Table = (props) => {
   return (
     <>
       <div style={{ width: 1215 }}>
+        <Typography variant="caption" style={{ float: "right" }}>
+          * Please click on aggregate button in the name column header to view
+          aggregate results
+        </Typography>
         <Styles>
           <div
             {...getTableProps()}

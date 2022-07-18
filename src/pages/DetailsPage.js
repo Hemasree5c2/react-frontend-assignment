@@ -38,7 +38,7 @@ const DetailsPage = () => {
             <Card
               title={"Inventory Data"}
               body={<Table data={state?.data} />}
-              height={650}
+              height={670}
               width={1290}
             />
           </Grid>
